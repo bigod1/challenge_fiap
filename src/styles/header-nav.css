@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__img{
+    width: 20rem;
+}
+
+nav{
+    height: 7vh;
+    background-color: rgb(64, 104, 236);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__list{
+    display: flex;
+    height: 100%;
+}
+
+.nav__item{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(52, 53, 54);
+    padding: 0 25px;
+    
+    height: 100%;
+}
+
+.nav__item--last{
+    border: none;
+}
+
+.nav__anchor{
+    font-size: 22px;
+    color: rgb(255, 255, 234);
+}
+
+.nav__anchor:hover{
+    color: rgb(175, 175, 159);
+}
