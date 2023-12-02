@@ -1,0 +1,84 @@
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.sec__indentificacao-prblema{
+    margin-top: 50px;
+    border-radius: 10px;
+
+    width: 30%;
+
+    background-color: rgb(64, 104, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    padding: 60px 0 100px;
+}
+
+.div__paragraphs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 90%;
+}
+
+.div__paragraphs > p{
+    text-align: justify;
+    color: rgb(230, 234, 240);
+
+    line-height: 150%;
+}
+
+.paragraph__link{
+    margin-top: 40px;
+    color: rgb(230, 234, 240);
+}
+
+.link__demonstracao{
+    color: blue;
+    text-decoration: underline;
+}
+
+.sec__calculo--info{
+    border-radius: 10px;
+
+    width: 30%;
+
+    background-color: rgb(64, 104, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    padding: 30px 0 30px;
+
+    margin-bottom: 40px;
+}
+
+.calculo__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    width: 90%;
+}
+
+.calculo__container > p{
+    text-align: justify;
+    color: rgb(230, 234, 240);
+
+    line-height: 150%;
+}
+
+.img__tabela{
+    width: 400px;
+}
